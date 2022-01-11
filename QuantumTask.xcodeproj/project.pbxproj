@@ -100,9 +100,17 @@
 				143ECDAB278C31AD00F093F2 /* NotificationsView.swift */,
 				143ECDAD278C31CA00F093F2 /* ProfileView.swift */,
 				143ECDAF278C31D400F093F2 /* CartView.swift */,
-				14641205278DA37900BDA714 /* GridCards.swift */,
+				14641207278DA55900BDA714 /* Component */,
 			);
 			path = SubViews;
+			sourceTree = "<group>";
+		};
+		14641207278DA55900BDA714 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				14641205278DA37900BDA714 /* GridCards.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		1470202B278C24200014BDD3 = {
