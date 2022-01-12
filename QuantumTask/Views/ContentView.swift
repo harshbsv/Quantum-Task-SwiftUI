@@ -4,6 +4,11 @@
 //
 //  Created by Harshvardhan Basava on 10/01/22.
 //
+//
+// NOTE: This project was developed on the latest version of Xcode - Version 13.2.1 (13C100).
+// The default iOS deployment target used was 15.2, which has been changed to 14.0 to avoid
+// issues running the project further. Made some changes in code to support both the latest
+// and the older version of iOS.
 
 import SwiftUI
 
@@ -32,6 +37,7 @@ struct ContentView: View {
                     Label("Cart", systemImage: "cart.fill")
                 }
         }
+        .accentColor(.red)
     }
 }
 
